@@ -2,9 +2,9 @@
 
 This is a fork and [OpenCV](http://opencv.org/) wrapper of the optical flow input/output code provided as part of the [Sintel dataset](http://sintel.is.tue.mpg.de/) [1]. The code is based on `imageLib`, a small C++ library for multi-channel images based on the [StereoMatcher](http://research.microsoft.com/en-us/downloads/9bc7fd74-5953-4064-9732-76405573aaef/) [2] code by Daniel Scharstein and Richard Szeliski. We refer to:
 
-* [lib/README-FlowIO](lib_flow_io/README-FlowIO.md): the original README shipped with the Sintel dataset.
-* [lib/imageLib/README](lib_flow_io/imageLibe/README.md): the original README of `imageLib` shipped with the Sintel dataset.
-* [lib/imageLib/README-StereoMatcher](lib_flow_io/imageLib/README.StereoMatcher.md): the original README of the StereoMatcher.
+* [lib/README-FlowIO](lib/README-FlowIO.md): the original README shipped with the Sintel dataset.
+* [lib/imageLib/README](lib/imageLibe/README.md): the original README of `imageLib` shipped with the Sintel dataset.
+* [lib/imageLib/README-StereoMatcher](lib/imageLib/README.StereoMatcher.md): the original README of the StereoMatcher.
 
     [1] D. J. Butler, J. Wulff, G. B. Stanley, M. J. Black.
         A naturalistic open source movie for optical flow evaluation.
