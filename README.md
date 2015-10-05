@@ -19,8 +19,9 @@ The OpenCV wrapper is based on [CMake](http://www.cmake.org/) and (surprise!) Op
 
     $ sudo apt-get install cmake build-essential
     $ mkdir build
-    $cd build
+    $ cd build
     $ cmake ..
+    $ make
     $ ./cli/cli --help
     Allowed options:
       --help                produce help message

@@ -69,7 +69,7 @@ cv::Mat FlowIOOpenCVWrapper::read(std::string path) {
 
 void FlowIOOpenCVWrapper::write(std::string path, const cv::Mat & flow) {
     assert(flow.channels() == 2);
-    assert(flow.type() == CV_32F);
+    assert(flow.type() == CV_32FC2);
     
     int rows = flow.rows;
     int cols = flow.cols;
