@@ -1,5 +1,7 @@
 # Flow IO OpenCV
 
+[![Build Status](https://travis-ci.org/davidstutz/flow-io-opencv.svg?branch=master)](https://travis-ci.org/davidstutz/flow-io-opencv)
+
 This is a fork and [OpenCV](http://opencv.org/) wrapper of the optical flow input/output code provided as part of the [Sintel dataset](http://sintel.is.tue.mpg.de/) [1]. The code is based on `imageLib`, a small C++ library for multi-channel images based on the [StereoMatcher](http://research.microsoft.com/en-us/downloads/9bc7fd74-5953-4064-9732-76405573aaef/) [2] code by Daniel Scharstein and Richard Szeliski. We refer to:
 
 * [lib/README-FlowIO](lib/README-FlowIO.md): the original README shipped with the Sintel dataset.
@@ -17,7 +19,7 @@ This is a fork and [OpenCV](http://opencv.org/) wrapper of the optical flow inpu
 
 The OpenCV wrapper is based on [CMake](http://www.cmake.org/) and (surprise!) OpenCV (for example, follow [Installing OpenCV on Linux](http://docs.opencv.org/doc/tutorials/introduction/linux_install/linux_install.html#linux-installation) to install OpenCV). The code has been tested on Ubuntu 14.04 and 14.10.
 
-    $ sudo apt-get install cmake build-essential
+    $ sudo apt-get install cmake build-essential libboost-all-dev
     $ mkdir build
     $ cd build
     $ cmake ..
